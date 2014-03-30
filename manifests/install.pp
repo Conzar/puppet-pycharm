@@ -14,13 +14,8 @@ class pycharm::install {
   $edition = $pycharm::edition
   $version = $pycharm::version
 
-  case $::kernel {
-    'Darwin': {
-      $source = "http://download-ln.jetbrains.com/python/pycharm-${edition}-${version}.dmg"
-    }
-    default: {
-      fail("Unsupported Kernel: ${::kernel} operatingsystem: ${::operatingsystem}")
-    }
+  $source = $::osfamily ? {
+    'Darwin' => "http://download-ln.jetbrains.com/python/pycharm-${edition}-${version}.dmg",
   }
   package {"pycharm-${edition}-${version}":
     ensure => installed,

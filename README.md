@@ -10,7 +10,7 @@ Supported Platforms:
 Examples
 --------
 
-Install PyCharm 3.0.1:
+Install PyCharm 3.1.1:
 
 ```
 class {'pycharm': }
