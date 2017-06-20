@@ -1,3 +1,7 @@
+2017-04-20 - Michael Speth <mspeth@monky-games.com> - 0.3.1
+  * Added support for Ubuntu
+  * Updated download URL
+
 2014-03-30 - Ryan Skoblenick <ryan@skoblenick.com> - 0.3.0
   * Updated default version of PyCharm to 3.1.1
 

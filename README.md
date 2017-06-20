@@ -6,6 +6,7 @@ Install PyCharm Professsional or Community Edition
 Supported Platforms:
 
 - Darwin
+- Ubuntu
 
 Examples
 --------
